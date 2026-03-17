@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "claudechat",
   "private": true,
   "version": "0.0.0",
@@ -20,20 +19,5 @@
     "postcss": "^8.5.8",
     "tailwindcss": "^3.4.19",
     "vite": "^8.0.0"
-=======
-  "name": "chatbotvue",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js"
-  },
-  "dependencies": {
-    "@google/generative-ai": "^0.24.1",
-    "cors": "^2.8.6",
-    "dotenv": "^17.3.1",
-    "express": "^5.2.1",
-    "groq-sdk": "^1.1.1"
->>>>>>> 5aead5fd563dd3b144be285d980838b045dcc845
   }
 }
