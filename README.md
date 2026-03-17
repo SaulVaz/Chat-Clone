@@ -9,8 +9,7 @@
 [![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=node.js)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)](LICENSE)
  
-![screenshot](<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/c8e215dd-5739-489a-8c42-2fcd55f08c24" />
-)
+<img width="1919" height="914" alt="image" src="https://github.com/user-attachments/assets/c8e215dd-5739-489a-8c42-2fcd55f08c24" />
  
 </div>
  
