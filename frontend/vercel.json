@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://chat-clone-fncn.onrender.com"
+      "destination": "https://chat-clone-fncn.onrender.com/api/:path*"
     }
   ]
 }
