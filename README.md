@@ -117,8 +117,8 @@ Abre [http://localhost:5173](http://localhost:5173) en tu navegador. 🎉
  
 | Variable | Descripción | Requerida |
 |---|---|---|
-| `GROQ_API_KEY` | API Key de [Groq Console](https://console.groq.com) | ✅ Sí |
-| `PORT` | Puerto del servidor backend (default: `3000`) | ❌ Opcional |
+| `GROQ_API_KEY` | API Key de [Groq Console](https://console.groq.com) |  Sí |
+| `PORT` | Puerto del servidor backend (default: `3000`) |  Opcional |
  
 ---
  
