@@ -1,6 +1,6 @@
 <div align="center">
  
-# 💬 Chat Clone
+#  Chat Clone
  
 **Un clon funcional de ChatGPT con streaming en tiempo real, construido con Vue 3 y Node.js.**
  
@@ -15,19 +15,19 @@
  
 ---
  
-## ✨ Características
+##  Características
  
 | Feature | Descripción |
 |---|---|
-| ⚡ **Streaming en tiempo real** | Respuestas letra por letra usando Server-Sent Events (SSE) |
-| 🗂️ **Multi-conversación** | Gestiona múltiples chats simultáneos en la barra lateral |
-| 💾 **Historial persistente** | Las conversaciones se guardan automáticamente con `localStorage` |
-| 📝 **Markdown + Código** | Renderizado completo de Markdown con resaltado de bloques de código |
-| 🌙 **Tema oscuro** | Interfaz oscura inspirada en ChatGPT |
+|  **Streaming en tiempo real** | Respuestas letra por letra usando Server-Sent Events (SSE) |
+|  **Multi-conversación** | Gestiona múltiples chats simultáneos en la barra lateral |
+|  **Historial persistente** | Las conversaciones se guardan automáticamente con `localStorage` |
+|  **Markdown + Código** | Renderizado completo de Markdown con resaltado de bloques de código |
+|  **Tema oscuro** | Interfaz oscura inspirada en ChatGPT |
  
 ---
  
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
  
 ### Frontend
 - **[Vue 3](https://vuejs.org/)** + **[Vite](https://vitejs.dev/)** — Framework reactivo con build ultrarrápido
@@ -42,7 +42,7 @@
  
 ---
  
-## 🏗️ Arquitectura del Proyecto
+##  Arquitectura del Proyecto
  
 ```
 Chat-Clone/
@@ -64,7 +64,7 @@ Chat-Clone/
  
 ---
  
-## 🚀 Instalación y uso local
+##  Instalación y uso local
  
 ### Requisitos previos
 - [Node.js](https://nodejs.org/) v18 o superior
@@ -113,7 +113,7 @@ Abre [http://localhost:5173](http://localhost:5173) en tu navegador. 🎉
  
 ---
  
-## 🌐 Variables de Entorno
+##  Variables de Entorno
  
 | Variable | Descripción | Requerida |
 |---|---|---|
@@ -122,7 +122,7 @@ Abre [http://localhost:5173](http://localhost:5173) en tu navegador. 🎉
  
 ---
  
-## 📡 Cómo funciona el Streaming
+##  Cómo funciona el Streaming
  
 El backend expone un endpoint `/api/chat` que utiliza **Server-Sent Events** para enviar tokens del modelo de lenguaje al frontend conforme se van generando, logrando el efecto de escritura en tiempo real sin necesidad de WebSockets.
  
@@ -136,7 +136,7 @@ Cliente         ◄── SSE stream ────  tokens en tiempo real
  
 ---
  
-## 📄 Licencia
+##  Licencia
  
 Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
  
