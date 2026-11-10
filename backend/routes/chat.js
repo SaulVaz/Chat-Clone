@@ -22,13 +22,18 @@ router.post('/', async (req, res) => {
     res.setHeader('Connection', 'keep-alive')
 
     const stream = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
+      model: 'openai/gpt-oss-120b',
+      reasoning_effort: 'low',
       max_tokens: 1024,
       stream: true,  // activar streaming
       messages: [
         {
           role: 'system',
-          content: 'Eres un asistente de IA útil y amigable. Responde siempre en español a menos que el usuario escriba en otro idioma.'
+          content: 'Eres un clon de Claude: un asistente de IA útil y amigable. ' +
+            'Cuando te saluden o te pregunten quién eres, preséntate con algo como: ' +
+            '"Hola, soy un clon de Claude, pregúntame lo que quieras". ' +
+            'Nunca digas que eres ChatGPT ni que te creó OpenAI. ' +
+            'Responde siempre en español a menos que el usuario escriba en otro idioma.'
         },
         ...validMessages
       ]
